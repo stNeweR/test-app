@@ -21,7 +21,12 @@
                             <td class="px-4 py-1 ">{{$lead['id']}}</td>
                             <td class="px-4 py-1 ">{{$lead['name']}}</td>
                             <td class="px-4 py-1 ">{{$lead['price']}}</td>
-                            <td class="px-4 py-1 ">{{ $lead['custom_fields_values'][0]['values'][0]['value'] }}</td>
+                            <td class="px-4 py-1 ">
+                                @if($lead['custom_fields_values'])
+                                    {{ $lead['custom_fields_values'][0]['values'][0]['value'] }}</td>
+                                @else
+                                    nop...
+                                @endif
                             <td class="px-4 py-1 ">
                                 @if(isset($lead['custom_fields_values'][1]))
                                     {{ $lead['custom_fields_values'][1]['values'][0]['value'] }}
