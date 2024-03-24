@@ -10,4 +10,5 @@ Route::as('leads.')->group(function () {
     Route::post('/store', [LeadController::class, 'store'])->name('store');
     Route::put('/{lead_id}/addCost', [LeadController::class, 'updateCost'])->name('updateCost');
     Route::put('/{lead}/addPrice', [LeadController::class, 'updatePrice'])->name('updatePrice');
+    Route::get('/leads/seed', [LeadController::class, 'seed'])->name('seed');
 });

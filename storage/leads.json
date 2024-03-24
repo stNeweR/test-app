@@ -1,0 +1,252 @@
+[
+    {
+        "name": "Сделка 1",
+        "price": 520,
+        "cost": 240
+    },
+    {
+        "name": "Сделка 2",
+        "price": 1540,
+        "cost": 890
+    },
+    {
+        "name": "Сделка 3",
+        "price": 980,
+        "cost": null
+    },
+    {
+        "name": "Сделка 4",
+        "price": 730,
+        "cost": 310
+    },
+    {
+        "name": "Сделка 5",
+        "price": null,
+        "cost": 700
+    },
+    {
+        "name": "Сделка 6",
+        "price": 1060,
+        "cost": null
+    },
+    {
+        "name": "Сделка 7",
+        "price": 480,
+        "cost": null
+    },
+    {
+        "name": "Сделка 8",
+        "price": 1120,
+        "cost": null
+    },
+    {
+        "name": "Сделка 9",
+        "price": 920,
+        "cost": 420
+    },
+    {
+        "name": "Сделка 10",
+        "price": 930,
+        "cost": null
+    },
+    {
+        "name": "Сделка 11",
+        "price": 1760,
+        "cost": 1430
+    },
+    {
+        "name": "Сделка 12",
+        "price": 640,
+        "cost": 280
+    },
+    {
+        "name": "Сделка 13",
+        "price": 1540,
+        "cost": 760
+    },
+    {
+        "name": "Сделка 14",
+        "price": 460,
+        "cost": null
+    },
+    {
+        "name": "Сделка 15",
+        "price": 1090,
+        "cost": null
+    },
+    {
+        "name": "Сделка 16",
+        "price": null,
+        "cost": 380
+    },
+    {
+        "name": "Сделка 17",
+        "price": 980,
+        "cost": null
+    },
+    {
+        "name": "Сделка 18",
+        "price": 720,
+        "cost": 410
+    },
+    {
+        "name": "Сделка 19",
+        "price": 1360,
+        "cost": 950
+    },
+    {
+        "name": "Сделка 20",
+        "price": 570,
+        "cost": 240
+    },
+    {
+        "name": "Сделка 21",
+        "price": 1210,
+        "cost": 570
+    },
+    {
+        "name": "Сделка 22",
+        "price": 630,
+        "cost": null
+    },
+    {
+        "name": "Сделка 23",
+        "price": 870,
+        "cost": 490
+    },
+    {
+        "name": "Сделка 24",
+        "price": 980,
+        "cost": 400
+    },
+    {
+        "name": "Сделка 25",
+        "price": 610,
+        "cost": null
+    },
+    {
+        "name": "Сделка 26",
+        "price": 1150,
+        "cost": null
+    },
+    {
+        "name": "Сделка 27",
+        "price": 1230,
+        "cost": null
+    },
+    {
+        "name": "Сделка 28",
+        "price": 440,
+        "cost": 190
+    },
+    {
+        "name": "Сделка 29",
+        "price": 780,
+        "cost": 360
+    },
+    {
+        "name": "Сделка 30",
+        "price": 1470,
+        "cost": 1090
+    },
+    {
+        "name": "Сделка 31",
+        "price": 530,
+        "cost": null
+    },
+    {
+        "name": "Сделка 32",
+        "price": 670,
+        "cost": 240
+    },
+    {
+        "name": "Сделка 33",
+        "price": 950,
+        "cost": 450
+    },
+    {
+        "name": "Сделка 34",
+        "price": 1390,
+        "cost": null
+    },
+    {
+        "name": "Сделка 35",
+        "price": 520,
+        "cost": null
+    },
+    {
+        "name": "Сделка 36",
+        "price": 830,
+        "cost": 570
+    },
+    {
+        "name": "Сделка 37",
+        "price": 960,
+        "cost": null
+    },
+    {
+        "name": "Сделка 38",
+        "price": 700,
+        "cost": null
+    },
+    {
+        "name": "Сделка 39",
+        "price": null,
+        "cost": 480
+    },
+    {
+        "name": "Сделка 40",
+        "price": 650,
+        "cost": null
+    },
+    {
+        "name": "Сделка 41",
+        "price": 770,
+        "cost": null
+    },
+    {
+        "name": "Сделка 42",
+        "price": 1360,
+        "cost": null
+    },
+    {
+        "name": "Сделка 43",
+        "price": 880,
+        "cost": 390
+    },
+    {
+        "name": "Сделка 44",
+        "price": 1370,
+        "cost": null
+    },
+    {
+        "name": "Сделка 45",
+        "price": 610,
+        "cost": null
+    },
+    {
+        "name": "Сделка 46",
+        "price": null,
+        "cost": 280
+    },
+    {
+        "name": "Сделка 47",
+        "price": 820,
+        "cost": null
+    },
+    {
+        "name": "Сделка 48",
+        "price": 960,
+        "cost": 420
+    },
+    {
+        "name": "Сделка 49",
+        "price": 590,
+        "cost": 230
+    },
+    {
+        "name": "Сделка 50",
+        "price": 1000,
+        "cost": null
+    }
+]

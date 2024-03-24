@@ -23,10 +23,10 @@
                             <td class="px-4 py-1 ">{{ $lead->getName() }}</td>
                             <td class="px-4 py-1 ">{{ $lead->getPrice() }}</td>
                             <td class="px-4 py-1 ">
-                                @if($lead->getCustomFieldsValues() && $lead->getCustomFieldsValues()[0]->getFieldId()==9505)
-                                    {{ $lead->getCustomFieldsValues()[0]->getValues()[0]->getValue() }}
+                                @if($lead->getCustomFieldsValues() &&  $lead->getCustomFieldsValues()->getBy('fieldId', 9505))
+                                    {{ $lead->getCustomFieldsValues()->getBy('fieldId', 9505)->getValues()[0]->getValue() }}
                                 @else
-                                    пусто...
+                                    пусто....
                                 @endif
                             </td>
                             <td class="px-4 py-1 ">

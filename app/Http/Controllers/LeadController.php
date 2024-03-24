@@ -14,6 +14,7 @@ use AmoCRM\Collections\CustomFieldsValuesCollection;
 use AmoCRM\Models\CustomFieldsValues\NumericCustomFieldValuesModel;
 use AmoCRM\Models\CustomFieldsValues\ValueModels\NumericCustomFieldValueModel;
 use App\Actions\ProfitAction;
+use Illuminate\Support\Facades\File;
 
 class LeadController extends Controller
 {
@@ -86,6 +87,27 @@ class LeadController extends Controller
         ProfitAction::handle($leadCustomFieldsValues, $lead->getPrice(), $cost);
         $lead->setCustomFieldsValues($leadCustomFieldsValues);
         ApiClientAction::handle()->leads()->updateOne($lead);
+        return redirect()->route('leads.index');
+    }
+    public function seed()
+    {
+        $jsonData = File::get(base_path('storage/leads.json'));
+        $data = json_decode($jsonData, true);
+        foreach ($data as $datum) {
+            $lead = new LeadModel();
+            $lead->setName($datum['name']);
+            $lead->setPrice($datum['price']);
+            $leadsCollection = new LeadsCollection();
+            $leadCustomFieldsValues = new CustomFieldsValuesCollection();
+            $cost = new NumericCustomFieldValuesModel();
+            $cost->setFieldId(9505);
+            $cost->setValues(( new NumericCustomFieldValueCollection())->add((new NumericCustomFieldValueModel())->setValue($datum['cost'])));
+            $leadCustomFieldsValues->add($cost);
+            ProfitAction::handle($leadCustomFieldsValues, $lead->getPrice(), $datum['cost']);
+            $lead->setCustomFieldsValues($leadCustomFieldsValues);
+            $leadsCollection->add($lead);
+            ApiClientAction::handle()->leads()->add($leadsCollection);
+        }
         return redirect()->route('leads.index');
     }
 }
