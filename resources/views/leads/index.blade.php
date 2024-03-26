@@ -2,7 +2,7 @@
 
 
 @section('page')
-    <div class="">
+    <div class="my-10">
         <div class="relative overflow-x-auto">
             <h1 class="text-xl font-bold">Все сделки:</h1>
             <table class="w-full text-left">
